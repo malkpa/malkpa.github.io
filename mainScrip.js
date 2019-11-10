@@ -4,5 +4,5 @@ function a(){
 	}
 }
 
-alert("I Can See  You");
+alert("no i didnt!");
 console.log(a);
