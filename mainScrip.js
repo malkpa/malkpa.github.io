@@ -4,5 +4,5 @@ function a(){
 	}
 }
 
-alert("no i didnt!");
+
 console.log(a);
