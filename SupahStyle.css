@@ -1,5 +1,5 @@
 body {
-	background-color:#67699c;
+	background-color:#cb8fd9;
 }
 .logo{
 	max-width: 100%;
@@ -7,7 +7,21 @@ body {
 .flex-container{
 	display: flex;
 	flex-wrap:row wrap;
-	align-content: center;
+	text-align: center;
+	justify-content: center;
+}
+.flex-container > *{
+	flex:1 100%;
+}
+.header{
+	width: 100%;
+	flex: 2 0px;
+}
+.bubble{
+		/*background-color:purple;*/
+	border-radius: 20%;
+	padding: 1px;
+	
 }
 h1 {
 	font-size:4em;
@@ -19,3 +33,10 @@ a:hover {
 	color:green;
 }
 
+a{
+	text-decoration: none;
+	color:black;
+}
+.test{
+	max-width: 250px;
+}
