@@ -1,5 +1,6 @@
 body {
-	background-color:#cb8fd9;
+	background-color:black;
+	color:white;
 }
 .logo{
 	max-width: 100%;
@@ -12,6 +13,7 @@ body {
 }
 .flex-container > *{
 	flex:1 100%;
+	
 }
 .header{
 	width: 100%;
